@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Nuestro Trabajo | Ghost Ink - Estudio de Diseño Editorial y Tatuajes</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Ghost Ink, sobre nosotros, diseño editorial, equipo, estudio de tatuajes, México" name="keywords">
+    <meta content="Conoce la historia, misión y los valores de Ghost Ink. Especialistas en diseño visual, branding y arte gótico editorial." name="description">
+
+    <link href="img/favicon.ico" rel="icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Spicy+Rice&display=swap" rel="stylesheet"> 
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link href="css/style.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #320049 !important;
+            color: #f3cfff !important;
+            font-family: "Josefin Sans", sans-serif !important;
+        }
+
+        h1, h2, h3, h4, h5, h6, .display-3, .display-4 {
+            font-family: "Spicy Rice", serif !important;
+            color: #f3cfff !important;
+        }
+
+        p, span, li, a {
+            font-family: "Josefin Sans", sans-serif !important;
+            color: #f3cfff;
+        }
+
+        /* Navbar */
+        header, nav, .navbar, .bg-dark {
+            background-color: #210030 !important;
+        }
+        
+        .navbar-nav .nav-link {
+            color: #f3cfff !important;
+            opacity: 0.8;
+        }
+        
+        .navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+            color: #ffffff !important;
+            opacity: 1;
+        }
+
+        /* Contenedores oscuros */
+        .bg-light, .bg-white, .container-fluid, main {
+            background-color: #320049 !important;
+        }
+
+        /* Tarjetas de la Galería */
+        .work-item {
+            background-color: #210030;
+            border: 1px solid rgba(243, 207, 255, 0.2);
+            transition: all 0.3s ease;
+            overflow: hidden;
+            border-radius: 8px;
+        }
+
+        .work-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(243, 207, 255, 0.15);
+            border-color: #f3cfff;
+        }
+
+        .work-img-container {
+            position: relative;
+            overflow: hidden;
+            background-color: #160023;
+        }
+
+        .work-img-container img {
+            transition: transform 0.5s ease;
+            object-fit: cover;
+            height: 300px; /* Altura uniforme para las imágenes */
+            width: 100%;
+        }
+
+        .work-item:hover .work-img-container img {
+            transform: scale(1.05);
+        }
+
+        aside {
+            background-color: #210030 !important;
+            border-color: #f3cfff !important;
+        }
+
+        /* Footer */
+        footer, .footer {
+            background-color: #160023 !important;
+            border-top: 1px solid rgba(243, 207, 255, 0.2);
+        }
+        
+        .btn-outline-light {
+            color: #f3cfff !important;
+            border-color: #f3cfff !important;
+        }
+        
+        .btn-outline-light:hover {
+            background-color: #f3cfff !important;
+            color: #320049 !important;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 px-lg-5">       
+            <a href="index.html" class="navbar-brand d-lg-block">
+                <img src="img/logo.png" alt="Logo de Ghost Ink Estudio" style="max-height: 80px; width: auto;">
+            </a>
+            
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ml-auto p-4">
+                    <a href="index.html" class="nav-item nav-link">Inicio</a>
+                    <a href="Nuestro trabajo.html" class="nav-item nav-link active">Nuestro trabajo</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid page-header mb-5 position-relative" 
+         style="background: url('img/hola.png') no-repeat center center; background-size: cover; padding: 120px 0;">
+        
+        <div class="container text-center py-5">
+            <h1 class="display-3 mt-lg-5 text-uppercase" style="text-shadow: 3px 3px 10px #320049;">&nbsp;</h1>
+          <div class="d-inline-flex mb-lg-5" style="text-shadow: 2px 2px 5px #320049;">
+              <p class="m-0">&nbsp;</p>
+
+          </div>
+        </div>
+    </div>
+
+    <main>
+        <a href="index.html" style="text-decoration: none; font-weight: bold;">Inicio</a>
+        <div class="container-fluid py-4">
+            <div class="container">
+                <div class="section-title text-center mb-5">
+                    <h4 class="text-uppercase" style="letter-spacing: 5px;">CONÓCENOS</h4>
+                    <h1 class="display-4">Nuestra Historia tras la Tinta</h1>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-6 py-3 py-lg-0">
+                        <h2 class="h1 mb-3">La Esencia de Ghost Ink</h2>
+                        <h5 class="mb-3" style="font-weight: normal; opacity: 0.95;">Nacimos de la intersección entre el misticismo del tatuaje analógico y el rigor del diseño editorial contemporáneo.</h5>
+                        <p>Nuestra propuesta fusiona dos mundos que comparten una misma raíz: la excelencia visual y la permanencia de los conceptos tangibles. En Ghost Ink no solo maquetamos publicaciones o dibujamos flashes; creamos identidades completas con un carácter gótico, oscuro y sofisticado que rompe con lo unconventional.</p>
+                        <p>Ubicados en el corazón de Ciudad Juárez, nos enorgullece ser un espacio híbrido donde la curaduría editorial se encuentra con el café de especialidad y la cultura del tatuaje, atrayendo a las mentes más creativas del estado.</p>
+                    </div>
+                    <div class="col-lg-6" style="min-height: 400px;">
+                        <div class="position-relative h-100">
+                            <img src="img/pony.gif" alt="Concepto de Diseño de Ghost Ink" class="w-100 rounded shadow" style="object-fit: cover; max-height: 450px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid py-5">
+            <div class="container">
+                <div class="section-title text-center mb-5">
+                    <h4 class="text-uppercase" style="letter-spacing: 5px;">PORTAFOLIO</h4>
+                    <h1 class="display-4">Galería de Proyectos</h1>
+                    <p class="mt-2">Explora nuestros últimos diseños editoriales, ilustraciones personalizadas y piezas de catálogo.</p>
+                </div>
+                
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="work-item shadow">
+                            <div class="work-img-container">
+                                <img src="img/poster gato.jpeg" alt="Diseño Ghost Ink 1">
+                            </div>
+                            <div class="p-3 text-center">
+                              <h5 class="m-0 text-uppercase" style="font-size: 1.1rem;">Diseño de cartel</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="work-item shadow">
+                            <div class="work-img-container">
+                                <img src="img/Recurso 6.png" alt="Diseño Ghost Ink 2">
+                            </div>
+                            <div class="p-3 text-center">
+                                <h5 class="m-0 text-uppercase" style="font-size: 1.1rem;">Ilustración de Flash Tattoo</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="work-item shadow">
+                            <div class="work-img-container">
+                                <img src="img/jerad deftones(1).png" alt="Diseño Ghost Ink 3">
+                            </div>
+                            <div class="p-3 text-center">
+                                <h5 class="m-0 text-uppercase" style="font-size: 1.1rem;">portada</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="work-item shadow">
+                            <div class="work-img-container">
+                                <img src="img/drarry_2@4x.png" alt="" width="3211" height="2666">
+                            </div>
+                            <div class="p-3 text-center">
+                                <h5 class="m-0 text-uppercase" style="font-size: 1.1rem;">Ilustración</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="work-item shadow">
+                            <div class="work-img-container">
+                                <img src="img/CHARLIE CARLISLE.png" alt="Diseño Ghost Ink 5">
+                            </div>
+                            <div class="p-3 text-center">
+                                <h5 class="m-0 text-uppercase" style="font-size: 1.1rem;">Arte Conceptual Oscuro</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="work-item shadow">
+                            <div class="work-img-container">
+                                <img src="img/𝗗3ИTR𝐎.jpeg" alt="Diseño Ghost Ink 6">
+                            </div>
+                            <div class="p-3 text-center">
+                                <h5 class="m-0 text-uppercase" style="font-size: 1.1rem;">Cartelería de Exhibición</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-5">
+            <aside class="p-4 text-center border-left" style="border-left: 5px solid #f3cfff !important;">
+                <h4 class="text-uppercase font-weight-bold mb-2">Filosofía de Trabajo</h4>
+                <p class="mb-0">Cada proyecto pasa por un estricto proceso de revisión conceptual. Nos aseguramos de que el contraste gráfico, el balance de las tintas y la atmósfera final transmitan con absoluta fidelidad el espíritu de la obra original.</p>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="container-fluid footer text-white mt-5 pt-5 px-0 position-relative">
+        <div class="row mx-0 pt-5 px-sm-3 px-lg-5 mt-4">
+            <div class="col-lg-4 col-md-6 mb-5">
+                <h4 class="text-uppercase mb-4" style="letter-spacing: 3px;">Ubicación</h4>
+                <p><i class="fa fa-map-marker-alt mr-2"></i>Ciudad Juárez, Chihuahua, México</p>
+                <p><i class="fa fa-phone-alt mr-2"></i>+52 (656) 123-4567</p>
+                <p class="m-0"><i class="fa fa-envelope mr-2"></i>contacto@ghostink.com</p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-5">
+                <h4 class="text-uppercase mb-4" style="letter-spacing: 3px;">Síguenos</h4>
+                <p>Mantente al tanto de nuestros últimos lanzamientos editoriales e ilustraciones de catálogo.</p>
+                <div class="d-flex justify-content-start">
+
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
